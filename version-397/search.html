@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>影片搜索 - 星辰影视</title>
+  <meta name="description" content="搜索星辰影视片库中的电影、剧集、年份、地区、类型和关键词，快速进入对应详情页。">
+  <meta name="keywords" content="日韩,最新电影,免费观看,高清播放,热门资源,小众,高分,影片搜索,片库搜索">
+  <link rel="stylesheet" href="./assets/site.css">
+  <script src="./assets/search-data.js"></script>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container nav-shell">
+    <a class="brand" href="./index.html" aria-label="星辰影视">
+      <span class="brand-mark">影</span>
+      <span class="brand-text">星辰影视</span>
+    </a>
+    <nav class="desktop-nav" aria-label="主导航">
+      <a class="nav-link" href="./index.html">首页</a>
+      <a class="nav-link" href="./categories.html">分类</a>
+      <a class="nav-link" href="./rankings.html">热播榜</a>
+      <a class="nav-link active" href="./search.html">搜索</a>
+    </nav>
+    <form class="header-search" action="./search.html" method="get" data-search-form>
+      <input type="search" name="q" placeholder="搜索影片、地区、类型" autocomplete="off">
+      <button type="submit">搜索</button>
+    </form>
+    <button class="menu-toggle" type="button" aria-label="打开菜单" data-menu-toggle>
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+  </div>
+  <div class="mobile-panel" data-mobile-panel>
+    <div class="container mobile-inner">
+      <a class="mobile-link" href="./index.html">首页</a>
+      <a class="mobile-link" href="./categories.html">分类</a>
+      <a class="mobile-link" href="./rankings.html">热播榜</a>
+      <a class="mobile-link active" href="./search.html">搜索</a>
+      <form class="mobile-search" action="./search.html" method="get" data-search-form>
+        <input type="search" name="q" placeholder="搜索影片">
+        <button type="submit">搜索</button>
+      </form>
+    </div>
+  </div>
+</header>
+<main>
+
+<section class="inner-hero search-hero">
+  <div class="inner-hero-bg"></div>
+  <div class="container inner-hero-content">
+    <span>影片搜索</span>
+    <h1>搜索电影、剧集、地区与类型</h1>
+    <p>输入片名、年份、地区、题材或关键词，快速定位对应详情页。</p>
+  </div>
+</section>
+<section class="container content-section search-page">
+  <form class="big-search" action="./search.html" method="get" data-search-form>
+    <input type="search" name="q" placeholder="输入关键词" data-search-input>
+    <button type="submit">搜索</button>
+  </form>
+  <div class="search-summary" data-search-summary></div>
+  <div class="movie-grid" data-search-results></div>
+</section>
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div class="footer-brand">
+      <a class="brand footer-logo" href="./index.html">
+        <span class="brand-mark">影</span>
+        <span class="brand-text">星辰影视</span>
+      </a>
+      <p>本频道专注于日韩影视领域，提供在线高清视频、免费资源和热播内容，每日更新海量正版剧集，附带排行榜与精选盘点。</p>
+    </div>
+    <div class="footer-col">
+      <h2>快速入口</h2>
+      <a href="./categories.html">分类片库</a>
+      <a href="./rankings.html">热播榜单</a>
+      <a href="./search.html">影片搜索</a>
+    </div>
+    <div class="footer-col">
+      <h2>精选专题</h2>
+      <a href="./category/hot-dramas.html">口碑剧情</a>
+      <a href="./category/asian-series.html">日韩热播</a>
+      <a href="./category/global-movies.html">全球电影</a>
+      <a href="./category/crime-suspense.html">悬疑犯罪</a>
+      <a href="./category/romance-healing.html">爱情治愈</a>
+      <a href="./category/comedy-variety.html">喜剧综艺</a>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span>© 2026 星辰影视</span>
+    <span>高清播放 · 热门资源 · 小众高分推荐</span>
+  </div>
+</footer>
+<script src="./assets/site.js"></script>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?95df08bc498ee0333203841fd6fee1eb";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</body>
+</html>

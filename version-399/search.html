@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://vercelcn.com/ads-widget.js"></script>
+  <title>搜索 - 最新日韩视频高清播放</title>
+  <meta name="description" content="搜索影片标题、地区、类型、标签与频道内容，快速进入对应影片详情页。">
+  <meta name="keywords" content="影片搜索,最新日韩视频,精选内容,视频更新,高清播放,日韩视频,热门视频,视频片库,内容合集">
+  <link rel="stylesheet" href="assets/site.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="index.html" aria-label="日韩视频精选">
+        <span class="brand-mark">▶</span>
+        <span class="brand-text">日韩视频精选</span>
+      </a>
+      <nav class="desktop-nav" aria-label="主导航">
+        <a class="nav-link " href="index.html">首页</a>
+        <a class="nav-link " href="categories.html">分类</a>
+        <a class="nav-link " href="ranking.html">热播榜</a>
+      </nav>
+      <form class="header-search" action="search.html" method="get">
+        <input type="search" name="q" placeholder="搜索影片、地区、类型" aria-label="搜索影片">
+        <button type="submit">搜索</button>
+      </form>
+      <button class="menu-toggle" type="button" aria-label="打开导航" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+    <div class="mobile-panel" hidden>
+      <form class="mobile-search" action="search.html" method="get">
+        <input type="search" name="q" placeholder="搜索影片、地区、类型" aria-label="移动端搜索影片">
+        <button type="submit">搜索</button>
+      </form>
+      <div class="mobile-links">
+        <a href="index.html">首页</a>
+        <a href="categories.html">分类</a>
+        <a href="ranking.html">热播榜</a>
+        <a href="category/rihan-jingxuan.html">日韩精选</a>
+        <a href="category/huayu-reying.html">华语热映</a>
+        <a href="category/oumei-pianku.html">欧美片库</a>
+        <a href="category/dongzuo-wuxia.html">动作武侠</a>
+        <a href="category/juqing-wenyi.html">剧情文艺</a>
+      </div>
+    </div>
+  </header>
+  <main class="page-wrap">
+    <div class="page-title">
+      <div class="breadcrumb">
+        <a href="index.html">首页</a>
+        <span>›</span>
+        <span>搜索</span>
+      </div>
+      <h1 data-search-title>搜索片库</h1>
+      <p>输入片名、地区、类型或标签，即可查找对应内容。</p>
+    </div>
+    <form class="search-panel" data-search-form>
+      <input type="search" name="q" data-search-input placeholder="输入关键词搜索" aria-label="输入关键词搜索">
+      <button type="submit">搜索</button>
+    </form>
+    <div class="movie-grid compact" data-search-results></div>
+  </main>
+  <script src="assets/search-data.js"></script>
+  <script src="assets/search.js"></script>
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div>
+        <a class="footer-brand" href="index.html">日韩视频精选</a>
+        <p>围绕最新日韩视频建立更新片库，展示近期热门和精选内容，方便按时间浏览。</p>
+      </div>
+      <div class="footer-links">
+        <a href="index.html">首页</a>
+        <a href="categories.html">分类频道</a>
+        <a href="ranking.html">热播榜</a>
+          <a href="category/rihan-jingxuan.html">日韩精选</a>
+          <a href="category/huayu-reying.html">华语热映</a>
+          <a href="category/oumei-pianku.html">欧美片库</a>
+          <a href="category/dongzuo-wuxia.html">动作武侠</a>
+          <a href="category/juqing-wenyi.html">剧情文艺</a>
+          <a href="category/kongbu-xuanyi.html">恐怖悬疑</a>
+      </div>
+    </div>
+  </footer>
+  <script src="assets/site.js"></script>
+  <script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?76b5e2e0f6c84c06f0a7cb7105df054d";
+  var s = document.getElementsByTagName("script")[0];
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</body>
+</html>
